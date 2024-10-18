@@ -1,0 +1,302 @@
+Unity Editor version:    2021.3.45f1 (0da89fac8e79)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+2024-10-17 23:49:16.515 Unity[93242:13762366] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/faheemunnisasyeda/Downloads/arfoundation-samples-4.2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62622
+Successfully changed project path to: /Users/faheemunnisasyeda/Downloads/arfoundation-samples-4.2
+/Users/faheemunnisasyeda/Downloads/arfoundation-samples-4.2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8471531328] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 3430497929 [EditorId] 3430497929 [Version] 1048832 [Id] OSXEditor(0,FaheemunisasMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8471531328] Host "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 3430497929 [EditorId] 3430497929 [Version] 1048832 [Id] OSXEditor(0,FaheemunisasMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 20.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/faheemunnisasyeda/Downloads/arfoundation-samples-4.2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56242
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001507 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 18.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (413ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (277ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (19ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 18.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (516ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (18ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (117.2 KB). Loaded Objects now: 2731.
+Memory consumption went from 96.4 MB to 96.3 MB.
+Total: 2.137916 ms (FindLiveObjects: 0.086375 ms CreateObjectMapping: 0.026916 ms MarkObjects: 1.963875 ms  DeleteObjects: 0.060000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1156220.621044 seconds.
+  path: Assets/Scenes/ImageTracking/Images/QRCode.jpg
+  artifactKey: Guid(a6fd8503774c0402aa403884f5b77f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/Images/QRCode.jpg using Guid(a6fd8503774c0402aa403884f5b77f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6df33655f31c2e94b582a649508887') in 0.104292 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/ImageTracking/Images/one.png
+  artifactKey: Guid(d1879707d69d24adfb421bde69c92c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/Images/one.png using Guid(d1879707d69d24adfb421bde69c92c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029bf90fe8b2d4cca342fd8e0b13373e') in 0.055122 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/ImageTracking/Images/unitylogowhiteonblack.jpg
+  artifactKey: Guid(5a804a4ff1f7e4038b1f1e6f4ad8a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/Images/unitylogowhiteonblack.jpg using Guid(5a804a4ff1f7e4038b1f1e6f4ad8a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2157d32f222b2be220a2816a1a3f9614') in 0.003183 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 452.242201 seconds.
+  path: Assets/Scenes/ImageTracking/Images
+  artifactKey: Guid(94c563f8613990d4f92b374fe027690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/Images using Guid(94c563f8613990d4f92b374fe027690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7776961499987f4c49110a51068d54') in 0.000641 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.177444 seconds.
+  path: Assets/Scenes/ImageTracking/BasicImageTracking
+  artifactKey: Guid(08fd61028ccc04cc5947a5b4acc3373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/BasicImageTracking using Guid(08fd61028ccc04cc5947a5b4acc3373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1229fe402aff68a700864ce66d7cb29') in 0.000829 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.813992 seconds.
+  path: Assets/Scenes/ImageTracking/ImageTrackingWithMultiplePrefabs/DynamicPrefab.cs
+  artifactKey: Guid(a6d5323815f004189af1fb658b6c9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/ImageTrackingWithMultiplePrefabs/DynamicPrefab.cs using Guid(a6d5323815f004189af1fb658b6c9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97da379e2ef8988a3ca8d9ffa25996fc') in 0.149006 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.783028 seconds.
+  path: Assets/Scenes/ImageTracking/ImageTrackingWithMultiplePrefabs/ImageTrackingWithMultiplePrefabs.unity
+  artifactKey: Guid(a1bf0e7b9cece455f81c1d2731ba76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/ImageTrackingWithMultiplePrefabs/ImageTrackingWithMultiplePrefabs.unity using Guid(a1bf0e7b9cece455f81c1d2731ba76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3fc9afa7473d0dfac4e52c816283ff') in 0.000915 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.786260 seconds.
+  path: Assets/Scenes/ImageTracking/Prefabs/ImageInfoPrefab.prefab
+  artifactKey: Guid(5d81b097707c58e4b949537763ba4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/Prefabs/ImageInfoPrefab.prefab using Guid(5d81b097707c58e4b949537763ba4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e582c0618c851b4769531812ee2f86') in 0.549484 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 13.160714 seconds.
+  path: Assets/Scenes/ImageTracking/BasicImageTracking/BasicImageTracking.unity
+  artifactKey: Guid(e0b018a3c3b5cfd4c8e316706ec0a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/BasicImageTracking/BasicImageTracking.unity using Guid(e0b018a3c3b5cfd4c8e316706ec0a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0854675cbad74bf8e029a5d46b4be0f') in 0.000801 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 95.554512 seconds.
+  path: Assets/Scenes/ImageTracking/ImageTrackingSettings.lighting
+  artifactKey: Guid(91c600e89f72e4bd6936c15f3a74f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/ImageTrackingSettings.lighting using Guid(91c600e89f72e4bd6936c15f3a74f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
+LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: 'c51398c427abfda211bfeb30b01af4e6') in 0.042329 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.917130 seconds.
+  path: Assets/Scenes/ImageTracking/DynamicLibrary.cs
+  artifactKey: Guid(92dfcdbbdd0754f9fb947d3639ad91c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/DynamicLibrary.cs using Guid(92dfcdbbdd0754f9fb947d3639ad91c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f93add1e9b9ea08840a99623e21b4f') in 0.002009 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (32.9 KB). Loaded Objects now: 2749.
+Memory consumption went from 72.8 MB to 72.8 MB.
+Total: 8.144916 ms (FindLiveObjects: 0.179917 ms CreateObjectMapping: 0.032792 ms MarkObjects: 7.878084 ms  DeleteObjects: 0.053666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 788.224030 seconds.
+  path: Assets/Scenes/ImageTracking/ImageTrackingSettings.lighting
+  artifactKey: Guid(91c600e89f72e4bd6936c15f3a74f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ImageTracking/ImageTrackingSettings.lighting using Guid(91c600e89f72e4bd6936c15f3a74f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb81f035a3dbde7576fa3696ba457af') in 0.003954 seconds 
+Number of asset objects unloaded after import = 1
+[usbmuxd] Attached: 1 00008020-00094D913699002E
+[usbmuxd] Detached: 1 00008020-00094D913699002E
+[usbmuxd] Attached: 2 00008020-00094D913699002E
+[usbmuxd] Detached: 2 00008020-00094D913699002E
